@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 function Users ({users, loading}) {
         if (loading){
-            return <Spinner/>
+            return <Spinner/> 
         }else{
             return (
                 <div style={userStyle}>
